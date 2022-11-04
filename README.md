@@ -8,4 +8,4 @@ Project created with React, bootstrapped with Vite
 
 # [![CSS](https://img.shields.io/npm/v/vite?style=flat-square)](https://www.npmjs.com/package/vite)
 
-#[![CSS](https://img.shields.io/npm/v/tailwindcss?style=flat-square)](https://www.npmjs.com/package/tailwindcss)
+[![CSS](https://img.shields.io/badge/tailwindcss-3.2.1-blue)](https://www.npmjs.com/package/tailwindcss)
