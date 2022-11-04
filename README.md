@@ -1,4 +1,4 @@
-<h1 align="center">Pokedex Project</h1>
+<h1 align="center">Pokedex project</h1>
 
 ### Descripcion
 
