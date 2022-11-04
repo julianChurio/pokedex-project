@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes point {
+  0%,
+  100% {
+    transform: translateX(-100%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.animate-mio {
+  animation: point 1s infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 2s linear infinite;
+}
+
+body {
+  background: #9b59b6;
+  background: radial-gradient(at center, #3498db, #5b59b6);
+  font-family: pokefont;
+}
+
+@font-face {
+  font-family: "pokefont";
+  src: url("../fonts/pokefont.ttf");
+}
+
+.tilt {
+  display: block;
+  transition: box-shadow 0.1s, transform 0.1s;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
+}
+
+.tilt:hover {
+  transition: box-shadow 0.1s, transform 0.5s;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
